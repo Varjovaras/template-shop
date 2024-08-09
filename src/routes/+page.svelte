@@ -1,15 +1,7 @@
-<div class="bg-gray-100 h-screen flex flex-col">
-	<header
-		class="bg-white shadow-lg px-4 py-3 flex justify-between items-center"
-	>
-		<div class="text-gray-800 font-bold text-xl">My App</div>
-		<button
-			class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-		>
-			Menu
-		</button>
-	</header>
+<script lang="ts">
+</script>
 
+<div class="  h-screen flex flex-col">
 	<main class="flex-1 overflow-y-scroll px-4 py-6">
 		<div class="bg-white shadow-lg rounded-lg p-6 mb-6">
 			<h2 class="text-gray-800 font-bold text-lg mb-4">Featured Content</h2>
