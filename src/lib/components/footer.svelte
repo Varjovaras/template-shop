@@ -4,7 +4,7 @@
 	<nav class="flex space-x-4">
 		<a href="/" class="text-white hover:text-gray-200">Home</a>
 		<a href="/about" class="text-white hover:text-gray-200">About</a>
-		<a href="/settings" class="text-white hover:text-gray-200">Settings</a>
+		<a href="/randomtext" class="text-white hover:text-gray-200">Random :D</a>
 	</nav>
 	<div class="text-gray-600 text-xs">© 2024 Kristjan Rajaniemi</div>
 </footer>

@@ -7,11 +7,11 @@
 >
 	<div class=" font-bold text-xl text-white">My App</div>
 	<div class="flex items-center space-x-4">
-		<button
+		<!-- <button
 			class="bg-blue-500 hover:bg-blue-600 text-white font-bold p-2 rounded"
 		>
 			Menu
-		</button>
+		</button> -->
 		<LightSwitch />
 	</div>
 </header>
