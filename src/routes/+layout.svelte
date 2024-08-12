@@ -4,8 +4,24 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>:D</title>
+</svelte:head>
+
 <Header />
-<div class="h-screen flex flex-col justify-center">
+<main class="h-screen flex flex-col justify-center overflow-auto">
 	<slot></slot>
-</div>
+</main>
 <Footer />
+
+<style>
+	:global(body) {
+		padding-top: 32px;
+		padding-bottom: 16;
+		overscroll-behavior-y: none;
+	}
+
+	:global(html) {
+		overflow-y: auto;
+	}
+</style>

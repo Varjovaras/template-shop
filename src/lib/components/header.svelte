@@ -3,10 +3,10 @@
 </script>
 
 <header
-	class="dark:bg-cyan-200 bg-cyan-700 shadow-lg px-4 py-3 flex items-center justify-between"
+	class="dark:bg-white bg-gray-200 shadow-lg px-4 py-4 flex items-center justify-between w-full fixed top-0 left-0 right-0 overflow-hidden overscroll-none"
 >
 	<div class="text-gray-800 font-bold text-xl">My App</div>
-	<div class="flex items-center space-x-2">
+	<div class="flex items-center space-x-4">
 		<button
 			class="bg-blue-500 hover:bg-blue-600 text-white font-bold p-2 rounded"
 		>
