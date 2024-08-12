@@ -4,8 +4,8 @@
 	import '../app.css';
 </script>
 
-<div class="flex flex-col justify-center">
-	<Header />
+<Header />
+<div class="h-screen flex flex-col justify-center">
 	<slot></slot>
-	<Footer />
 </div>
+<Footer />
