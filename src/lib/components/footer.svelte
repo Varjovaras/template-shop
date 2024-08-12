@@ -6,5 +6,5 @@
 		<a href="/about" class="text-white hover:text-gray-200">About</a>
 		<a href="/settings" class="text-white hover:text-gray-200">Settings</a>
 	</nav>
-	<div class="text-gray-600 text-sm">© 2024 Kristjan Rajaniemi</div>
+	<div class="text-gray-600 text-xs">© 2024 Kristjan Rajaniemi</div>
 </footer>

@@ -7,7 +7,7 @@
 	<div class="bg-white shadow-lg rounded-lg p-6 mb-6">
 		<h2 class="text-gray-800 font-bold text-lg mb-4">Recent Activity</h2>
 		<ul class="space-y-4">
-			{#each Array(50) as _, i}
+			{#each Array(2) as _, i}
 				<li>{i + 1}</li>
 				<li class="flex items-center">
 					<div class="bg-blue-500 text-white rounded-full p-2 mr-4">
@@ -22,8 +22,8 @@
 						</svg>
 					</div>
 					<div>
-						<h3 class="text-gray-800 font-bold">New User Joined</h3>
-						<p class="text-gray-600 text-sm">3 hours ago</p>
+						<h3 class="text-gray-800 font-bold">Moro :D essi :D</h3>
+						<p class="text-gray-600 text-sm">10 years ago</p>
 					</div>
 				</li>
 			{/each}
