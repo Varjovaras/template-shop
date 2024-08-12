@@ -56,8 +56,10 @@
 			</AccordionItem>
 		</Accordion>
 	</div>
-	<div>joo en jaksanu loppuja kopsaa :D</div>
-	<a class="anchor" href="https://spca.bc.ca/news/fun-facts-about-fish/">
-		https://spca.bc.ca/news/fun-facts-about-fish/
-	</a>
+	<div class="p8">
+		<p>joo en jaksanu loppuja kopsaa :D</p>
+		<a class="anchor" href="https://spca.bc.ca/news/fun-facts-about-fish/">
+			https://spca.bc.ca/news/fun-facts-about-fish/
+		</a>
+	</div>
 </main>
