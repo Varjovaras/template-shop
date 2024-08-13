@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Footer from '$lib/components/footer.svelte';
 	import Header from '$lib/components/header.svelte';
+	import { AppShell } from '@skeletonlabs/skeleton';
 	import '../app.css';
 </script>
 
@@ -9,6 +10,7 @@
 </svelte:head>
 
 <Header />
+
 <main class="h-screen flex flex-col justify-center overflow-auto">
 	<slot></slot>
 </main>
