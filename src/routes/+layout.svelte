@@ -1,29 +1,25 @@
 <script lang="ts">
 	import Footer from '$lib/components/footer.svelte';
 	import Header from '$lib/components/header.svelte';
-	import { AppShell } from '@skeletonlabs/skeleton';
 	import '../app.css';
+	console.log('LÄÄLÄÄLÄLÄÄ HEI');
 </script>
 
 <svelte:head>
 	<title>:D</title>
 </svelte:head>
 
-<Header />
-
-<main class="h-screen flex flex-col justify-center overflow-auto">
-	<slot></slot>
-</main>
-<Footer />
+<div class="flex flex-col h-screen">
+	<Header />
+	<main class="flex-1 overflow-auto">
+		<slot></slot>
+	</main>
+	<Footer />
+</div>
 
 <style>
-	:global(body) {
-		padding-top: 32px;
-		padding-bottom: 16;
-		overscroll-behavior-y: none;
-	}
-
-	:global(html) {
-		overflow-y: auto;
+	:global(html, body) {
+		height: 100%;
+		overflow: hidden;
 	}
 </style>

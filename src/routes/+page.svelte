@@ -2,9 +2,9 @@
 	import Featured from '$lib/components/featured.svelte';
 </script>
 
-<div class="flex-1 px-8 py-16">
+<div class="flex-1 px-8 p-4">
 	<Featured />
-	<div class="bg-white shadow-lg rounded-lg p-6 mb-6">
+	<div class="bg-white shadow-lg rounded-lg mb-6 p-4">
 		<h2 class="text-gray-800 font-bold text-lg mb-4">Recent Activity</h2>
 		<ul class="space-y-4">
 			{#each Array(2) as _, i}
