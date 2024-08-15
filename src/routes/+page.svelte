@@ -1,13 +1,13 @@
 <script lang="ts">
-	import Featured from '$lib/components/featured.svelte';
+	// import Featured from '$lib/components/featured.svelte';
 </script>
 
 <div class="flex-1 px-8 p-4">
-	<Featured />
+	<!-- <Featured />
 	<div class="bg-white shadow-lg rounded-lg mb-6 p-4">
 		<h2 class="text-gray-800 font-bold text-lg mb-4">Recent Activity</h2>
 		<ul class="space-y-4">
-			{#each Array(2) as _, i}
+			{#each Array(10) as _, i}
 				<li>{i + 1}</li>
 				<li class="flex items-center">
 					<div class="bg-blue-500 text-white rounded-full p-2 mr-4">
@@ -28,22 +28,9 @@
 				</li>
 			{/each}
 
-			<!-- Add more activity items as needed -->
 		</ul>
-	</div>
-	<div class="container mx-auto p-8 space-y-8">
-		<h1 class="h1">Hello Skeleton</h1>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		<section>
-			<a class="btn variant-filled-primary" href="https://kit.svelte.dev/"
-				>SvelteKit</a
-			>
-			<a class="btn variant-filled-secondary" href="https://tailwindcss.com/"
-				>Tailwind</a
-			>
-			<a class="btn variant-filled-tertiary" href="https://github.com/"
-				>GitHub</a
-			>
-		</section>
+	</div> -->
+	<div class="container mx-auto p-8 space-y-8 text-center">
+		<h1 class="h1">Miks stalkit :D</h1>
 	</div>
 </div>
