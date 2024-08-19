@@ -21,4 +21,15 @@
 			>
 		</section>
 	</div>
+
+	<div class="container flex p-8">
+		<div class="w-2/3">
+			<p>wtf :D</p>
+			<p>:D:D</p>
+		</div>
+		<div>
+			<p>wtf :D</p>
+			<p>!??!?!</p>
+		</div>
+	</div>
 </div>
