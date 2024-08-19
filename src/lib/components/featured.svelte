@@ -1,4 +1,6 @@
-<div class="bg-white shadow-lg rounded-lg p-6 mt-4 mb-6">
-	<h2 class="text-gray-800 font-bold text-lg mb-4">Featured Content</h2>
-	<p class="text-gray-600 text-sm">RÄYH</p>
+<div class="dark:bg-slate-300 bg-slate-800 shadow-lg rounded-lg p-6 mt-4 mb-6">
+	<h2 class="h1 dark:text-gray-800 text-white font-bold text-lg mb-4">
+		What we offer
+	</h2>
+	<p class=" text-sm">ali ali :D</p>
 </div>

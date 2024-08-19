@@ -2,11 +2,11 @@
 	import Footer from '$lib/components/footer.svelte';
 	import Header from '$lib/components/header.svelte';
 	import '../app.css';
-	console.log('LÄÄLÄÄLÄLÄÄ HEI');
 </script>
 
 <svelte:head>
 	<title>:D</title>
+	<meta name="description" content="Example shop" />
 </svelte:head>
 
 <div class="flex flex-col h-screen">
