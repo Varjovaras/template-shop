@@ -1,4 +1,10 @@
 <script lang="ts">
+    // import type { Country } from "./+page.server";
+    type Country = {
+        id: number;
+        name: string;
+    };
+    export let data: { countries: Country[] };
 </script>
 
 <div class="px-16 p-4">
@@ -26,3 +32,9 @@
         </section>
     </div>
 </div>
+
+<ul>
+    {#each data.countries as country}
+        <li>{country.name}</li>
+    {/each}
+</ul>
