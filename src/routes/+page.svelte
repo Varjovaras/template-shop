@@ -1,9 +1,6 @@
 <script lang="ts">
-    // import type { Country } from "./+page.server";
-    type Country = {
-        id: number;
-        name: string;
-    };
+    import type { Country } from "$lib/utils/types";
+
     export let data: { countries: Country[] };
 </script>
 
