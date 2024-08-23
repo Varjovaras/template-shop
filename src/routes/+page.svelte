@@ -11,12 +11,12 @@
 
 <Title />
 <div class="px-16 p-4">
-	<div class="container bg-slate-300 shadow-lg rounded-lg p-8 m-4 space-y-4">
+	<div class=" bg-slate-300 shadow-lg rounded-lg p-8 m-4 space-y-4">
 		<h2 class="h1 text-gray-800 font-bold text-lg">What we offer</h2>
 		<p class="text-gray-800 text-sm">Brand new website with a store</p>
 		<p class="text-gray-800 text-sm"></p>
 	</div>
-	<div class="container shadow-lg rounded-lg border p-8 space-y-4 m-4">
+	<div class=" shadow-lg rounded-lg border p-8 space-y-4 m-4">
 		<h1 class="h1">Technologies used</h1>
 		<section class="space-y-2">
 			<a class="btn variant-filled-primary" href="https://kit.svelte.dev/"
@@ -31,12 +31,11 @@
 			>
 		</section>
 	</div>
-</div>
-
-<div class="flex flex-row">
-	<ul>
-		{#each data.countries as country}
-			<li class="w-1/2">{country.name}</li>
-		{/each}
-	</ul>
+	<div class="flex flex-row justify-items-center">
+		<ul>
+			{#each data.countries as country}
+				<li class="">{country.name}</li>
+			{/each}
+		</ul>
+	</div>
 </div>

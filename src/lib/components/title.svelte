@@ -1,4 +1,4 @@
-<div class="flex text-center justify-center content-center flex-col p-2">
+<div class="flex text-center justify-evenly flex-row pt-6 pb-4">
 	<h1 class="h1">
 		<span
 			class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone"
